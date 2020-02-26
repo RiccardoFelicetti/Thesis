@@ -1,0 +1,20 @@
+#Deployment Plugin Project File
+#Fri Feb 07 14:50:54 CET 2020
+build.ant.name=<.>/resources/dp/decorator.component_build.xml
+build.dp.file=<.>/resources/dp/decorator.component.dp
+build.location=
+bundles.0.bundle_path=/home/riccardo/Kura_Wire_Plugin/plugins/org.eclipse.kura.wire.component.decorator.provider_1.0.0.202002071450.jar
+bundles.0.customizer=false
+bundles.0.headers.count=0
+bundles.0.missing=false
+bundles.0.name=bundles/org.eclipse.kura.wire.component.decorator.provider_1.0.0.202002071450.jar
+bundles.0.symbolic_name=org.eclipse.kura.wire.component.decorator.provider;singleton\:\=true
+bundles.0.version=1.0.0.202002071450
+bundles.count=1
+certificates.count=0
+general.signbundles=false
+headers.other.headers=
+headers.symbolic.name=decorator.component
+headers.version=1.0.0
+resources.count=0
+

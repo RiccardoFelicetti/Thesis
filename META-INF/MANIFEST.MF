@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Wire Decorator Component
+Bundle-SymbolicName: org.eclipse.kura.wire.component.decorator.provider;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-category: Kura Wires
+Automatic-Module-Name: org.eclipse.kura.wire.component.decorator.provider
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.apache.logging.log4j;version="2.8.2",
+ org.apache.logging.log4j.util;version="2.8.2",
+ org.eclipse.kura.wire;version="2.0.0",
+ org.osgi.framework;version="1.8.0",
+ org.osgi.service.component;version="1.3.0",
+ org.osgi.service.wireadmin;version="1.0.1",
+ org.slf4j;version="1.7.25"
+Service-Component: OSGI-INF/componentDec.xml
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.kura.api;bundle-version="2.1.0"
+Export-Package: org.eclipse.kura.wire.component.decorator.provider;version="1.0.0"
+Bundle-ClassPath: .
